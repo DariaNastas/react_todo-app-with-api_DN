@@ -1,22 +1,35 @@
-# Додаток React Todo з API
+## React Todo App with API
 
-Робочий приклад [the working example](https://darianastas.github.io/react_todo-app-with-api_DN/)
+👉 *click on the icon* [![Live Demo](https://img.shields.io/badge/Live%20Demo-React%20Todo%20App-61DAFB?style=for-the-badge&logo=react)](https://darianastas.github.io/react_todo-app-with-api_DN/)
 
-### Мета застосунку:
-Додаток розроблено для роботи з туду-сервісом через API, з можливістю завантаження, додавання, видалення, зміни статусу та перейменування завдань. 
-Також важливою частиною є обробка помилок, показ повідомлень про помилки та фільтрація завдань за статусом.
 
-### Технології, що використовувались:
+### 🎯 Purpose of the App
+This application allows users to manage a to-do list via an API: load, add, delete, rename, and update task statuses. It also includes error handling and UI optimizations for a smooth user experience.
 
-TypeScript – для типізації та безпечного коду.
-React – для створення компоненів та керування станом.
-API – для взаємодії з сервісом туду.
+### Technologies Used  
+| **Technology**   | **Description**                                |
+|-------------|--------------------------------------------|
+| ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white) | A JavaScript library for building user interfaces and managing state |
+| ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) | A strongly typed programming language that builds on JavaScript |
+| ![REST API](https://img.shields.io/badge/REST%20API-FF9800?style=for-the-badge&logo=api&logoColor=white) | A way for applications to communicate over HTTP |
+| ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white) | A stylesheet language for designing web pages |
+| ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) | A platform for version control and collaboration |
 
-### Можливості користувача:
 
-1. Завантаження завдань: Користувач може завантажити список туду за допомогою API при запуску додатка.
-1. Додавання та видалення завдань: Користувач може додавати нові завдання та видаляти їх зі списку.
-1. Перемикання статусу та перейменування завдань: Можливість змінювати статус завдань (активні або виконані) і перейменовувати їх.
-1. Фільтрація завдань за статусом: Користувач може фільтрувати завдання за статусом (всі, активні, виконані).
-1. Повідомлення про помилки: У разі помилки з'являється повідомлення з відповідним текстом, яке автоматично зникає через 3 секунди.
-1. Оптимізація користувацького досвіду: Елементи інтерфейсу (наприклад, кнопки та поля введення) вимикаються або приховуються, якщо дія не може бути виконана, і автоматично фокусується на полях для зручності введення.
+### 🔥 Key Features
+✔ Task Loading – fetch the to-do list from the server  
+✔ Add & Delete Tasks – create new tasks and remove existing ones  
+✔ Task Editing – rename tasks directly in the list  
+✔ Status Updates – mark tasks as completed or active  
+✔ Filtering – view all, active, or completed tasks  
+✔ Error Handling – display error messages that disappear automatically  
+✔ UX Optimization – disable buttons when actions are unavailable, auto-focus input fields  
+
+### 🚀 How to Run Locally
+1. Clone the repository  
+*git clone https://github.com/darianastas/react_todo-app-with-api_DN.git*    
+*cd react_todo-app-with-api_DN*    
+1. Install dependencies  
+*npm install*  
+1. Start the local server  
+*npm start*  
